@@ -1,0 +1,3 @@
+"""
+Security Auditor MCP Tests
+"""
