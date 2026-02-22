@@ -34,13 +34,19 @@ ENV/
 # Testing
 .pytest_cache/
 .coverage
+.mypy_cache/
 htmlcov/
+coverage.xml
 
 # Local files
 .env
+.env.*
+!.env.example
 *.db
 *.sqlite
+*.sqlite3
 *.log
+.DS_Store
 
 # Runtime data (cache, logs, data)
 data/
@@ -55,10 +61,3 @@ node_modules/
 # Claude Code
 .claude-flow/
 .swarm/
-# Test artifacts
-.pytest_cache/
-htmlcov/
-coverage.xml
-.coverage
-*.pyc
-__pycache__/
